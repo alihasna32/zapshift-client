@@ -4,7 +4,7 @@ import { useNavigate } from "react-router";
 import { UseAuth } from "./UseAuth";
 
 const axiosSecure = axios.create({
-  baseURL: "http://localhost:5000/",
+  baseURL: "https://zapshift-server-8ne3.onrender.com/",
 });
 
 const useAxiosSecure = () => {
